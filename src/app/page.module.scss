@@ -1,0 +1,8 @@
+@use "@/scss/variables.scss";
+
+.home {
+  @include variables.flex;
+  flex-direction: column;
+  gap: 1vh;
+  padding-inline: 1vw;
+}
