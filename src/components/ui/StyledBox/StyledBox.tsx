@@ -1,12 +1,7 @@
 import React from "react";
 import Box from "@mui/material/Box";
 
-interface IStyledBox {
-  component?: string;
-  height?: string;
-  className?: string;
-  children: React.ReactNode;
-}
+import styles from "./StyledBox.module.scss";
 
 export default function StyledBox({
   component = "section",
@@ -16,7 +11,7 @@ export default function StyledBox({
 }: IStyledBox) {
   return (
     <Box
-      className={className}
+      className={styles.item + " " + className}
       component={component}
       sx={{
         height: { height },
@@ -28,4 +23,11 @@ export default function StyledBox({
       {children}
     </Box>
   );
+}
+
+interface IStyledBox {
+  component?: string;
+  height?: string;
+  className?: string;
+  children: React.ReactNode;
 }

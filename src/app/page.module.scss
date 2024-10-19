@@ -1,8 +1,32 @@
 @use "@/scss/variables.scss";
 
+.wrapper {
+  // page scroll
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  scroll-behavior: smooth;
+  // margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 .home {
-  @include variables.flex;
-  flex-direction: column;
-  gap: 1vh;
+  // @include variables.flex;
+  // flex-direction: column;
   padding-inline: 1vw;
+  // gap: 7vh;
+
+  scroll-padding-top: 7vh;
+
+  overflow: auto;
+  scroll-snap-type: y mandatory;
+  overscroll-behavior-x: contain;
+  overflow-x: hidden;
+  display: grid;
+  box-sizing: border-box;
+  grid-template-columns: repeat(1, 1fr);
+  // width: 100%;
+  height: 100%;
+  outline: 0 !important;
 }
