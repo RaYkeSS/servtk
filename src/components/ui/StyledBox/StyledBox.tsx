@@ -5,7 +5,7 @@ import styles from "./StyledBox.module.scss";
 
 export default function StyledBox({
   component = "section",
-  height = "100vh",
+  height = "89vh",
   className,
   children,
 }: IStyledBox) {
@@ -14,7 +14,7 @@ export default function StyledBox({
       className={styles.item + " " + className}
       component={component}
       sx={{
-        height: { height },
+        minHeight: { height },
         p: 2,
         borderRadius: 4,
         boxShadow: 3,
@@ -26,7 +26,7 @@ export default function StyledBox({
 }
 
 interface IStyledBox {
-  component?: string;
+  component?: any;
   height?: string;
   className?: string;
   children: React.ReactNode;

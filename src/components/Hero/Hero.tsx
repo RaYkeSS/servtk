@@ -1,11 +1,44 @@
-import { Container } from "@mui/material";
+import { Button, Container, Grid2, Typography } from "@mui/material";
 import { StyledBox } from "@/components";
+
+import styles from "./Hero.module.scss";
 
 export default function Hero() {
   return (
-    <StyledBox>
-      <Container>
-        <h1>Hero</h1>
+    <StyledBox className={styles.hero}>
+      <Container
+        component={Grid2}
+        container
+        justifyContent="center"
+        alignItems="center"
+        textAlign="center"
+      >
+        <Typography
+          variant="h1"
+          gutterBottom
+          sx={{ color: "primary.contrastText", maxWidth: "80%" }}
+        >
+          Грузоперевозки по всей Росии
+        </Typography>
+        <Typography
+          variant="subtitle1"
+          gutterBottom
+          sx={{ color: "primary.contrastText" }}
+        >
+          Оказываем услуги по таможенному оформлению на любых таможнях
+          Российской Федерации - работаем ежедневно и при необходимости
+          круглосуточно!
+        </Typography>
+        <Button
+          size="large"
+          variant="outlined"
+          sx={{
+            color: "primary.contrastText",
+            borderColor: "primary.contrastText",
+          }}
+        >
+          Консультация
+        </Button>
       </Container>
     </StyledBox>
   );

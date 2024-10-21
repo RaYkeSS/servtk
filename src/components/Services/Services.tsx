@@ -1,11 +1,11 @@
 import { Container } from "@mui/material";
 import { StyledBox } from "@/components";
 
-export default function Footer() {
+export default function Services() {
   return (
-    <StyledBox component="footer">
+    <StyledBox>
       <Container>
-        <h1>Footer</h1>
+        <h1>Services</h1>
       </Container>
     </StyledBox>
   );

@@ -1,3 +1,5 @@
+@use "@/scss/variables.scss";
+
 .header {
   position: sticky;
   left: 0;
@@ -6,6 +8,23 @@
   gap: 20px;
   align-items: center;
   margin: 0 auto;
-  background-color: gray;
+  margin-top: -6vh;
   z-index: 1;
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+
+  // styling
+  background-color: var(--color-background);
+}
+
+.container {
+  @include variables.flex;
+  justify-content: space-between;
+  align-items: center;
+  // margin-top: 1vh;
+}
+
+.toolbar {
+  @include variables.flex;
+  gap: 8px;
 }

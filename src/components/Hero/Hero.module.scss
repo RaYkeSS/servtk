@@ -1,0 +1,13 @@
+.hero {
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+}
+.hero::before {
+  content: url("/img/Hero/hero_img.png");
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  opacity: 0.8;
+}
