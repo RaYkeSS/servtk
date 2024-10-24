@@ -6,7 +6,7 @@ import Typography from "@mui/material/Typography";
 
 export default function BenefitsCard({ children, icon, alt }: IBenefitsCard) {
   return (
-    <Card sx={{ maxWidth: 365 }}>
+    <Card sx={{ maxWidth: 365, maxHeight: "36vh" }}>
       <CardMedia
         sx={{ height: 140, p: 2, display: "flex", justifyContent: "center" }}
         title={alt}

@@ -12,6 +12,8 @@ export default function Hero() {
         justifyContent="center"
         alignItems="center"
         textAlign="center"
+        height="70%"
+        gap="7vh"
       >
         <Typography
           variant="h1"
@@ -21,12 +23,13 @@ export default function Hero() {
           Грузоперевозки по всей Росии
         </Typography>
         <Typography
-          variant="subtitle1"
+          variant="h6"
+          component="p"
           gutterBottom
           sx={{ color: "primary.contrastText" }}
         >
-          Оказываем услуги по таможенному оформлению на любых таможнях
-          Российской Федерации - работаем ежедневно и при необходимости
+          Оказываем услуги по логистике на всех направлениях в пределах
+          Российской Федерации — работаем ежедневно и, при необходимости,
           круглосуточно!
         </Typography>
         <Button

@@ -31,22 +31,19 @@ export default function About() {
         >
           <Grid2 size={6}>
             <Typography variant="body1" gutterBottom>
-              body1. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Quos blanditiis tenetur unde suscipit, quam beatae rerum inventore
-              consectetur, neque doloribus, cupiditate numquam dignissimos
-              laborum fugiat deleniti? Eum quasi quidem quibusdam.
+              ООО "Сервисная Торговая Компания" — это лидер в области логистики,
+              предлагающий инновационные решения для доставки и хранения грузов.
             </Typography>
             <Typography variant="body1" gutterBottom>
-              body1. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Quos blanditiis tenetur unde suscipit, quam beatae rerum inventore
-              consectetur, neque doloribus, cupiditate numquam dignissimos
-              laborum fugiat deleniti? Eum quasi quidem quibusdam.
+              Наша миссия — обеспечить максимальную эффективность логистических
+              процессов для наших клиентов. Мы располагаем современным парком
+              транспортных средств и оборудованием, а также
+              высококвалифицированной командой, готовой работать круглосуточно.
             </Typography>
             <Typography variant="body1" gutterBottom>
-              body1. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Quos blanditiis tenetur unde suscipit, quam beatae rerum inventore
-              consectetur, neque doloribus, cupiditate numquam dignissimos
-              laborum fugiat deleniti? Eum quasi quidem quibusdam.
+              Наша цель — оптимизировать ваши расходы и повысить
+              конкурентоспособность вашего бизнеса. С нами вы можете быть
+              уверены в надежности и высоком качестве предоставляемых услуг.
             </Typography>
           </Grid2>
           <Grid2 size="auto">
@@ -97,22 +94,20 @@ export default function About() {
           </Grid2>
           <Grid2 size={6}>
             <Typography variant="body1" gutterBottom>
-              body1. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Quos blanditiis tenetur unde suscipit, quam beatae rerum inventore
-              consectetur, neque doloribus, cupiditate numquam dignissimos
-              laborum fugiat deleniti? Eum quasi quidem quibusdam.
+              В ООО "Сервисная Торговая Компания" мы понимаем, что логистика —
+              это не просто транспортировка, а важный элемент успешного бизнеса.
+              Мы предлагаем полный спектр услуг: от грузоперевозок до
+              складирования и таможенного оформления.
             </Typography>
             <Typography variant="body1" gutterBottom>
-              body1. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Quos blanditiis tenetur unde suscipit, quam beatae rerum inventore
-              consectetur, neque doloribus, cupiditate numquam dignissimos
-              laborum fugiat deleniti? Eum quasi quidem quibusdam.
+              Наша команда использует современные технологии для отслеживания и
+              управления грузами, обеспечивая прозрачность на каждом этапе. Мы
+              гордимся нашей репутацией надежного партнера и стремимся к тому,
+              чтобы каждый клиент чувствовал себя увереннее, выбирая нас.
             </Typography>
             <Typography variant="body1" gutterBottom>
-              body1. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Quos blanditiis tenetur unde suscipit, quam beatae rerum inventore
-              consectetur, neque doloribus, cupiditate numquam dignissimos
-              laborum fugiat deleniti? Eum quasi quidem quibusdam.
+              С нами вы получите комплексное решение для своей логистики,
+              основанное на качестве, скорости и надежности.
             </Typography>
           </Grid2>
         </Grid2>
